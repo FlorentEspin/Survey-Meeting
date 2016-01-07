@@ -13,3 +13,4 @@
 ```
 $ mysql -hmysql.montpellier.epsi.fr -P5206 -u[USERNAME] -pepsi[PASSWORD]
 ```
+* Nom de la base de données : survey_meeting
