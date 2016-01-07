@@ -2,8 +2,8 @@
 
 ## Mysql Database
 
-* Identifiant : tuan.nguyenngoc
-* Mot de passe: epsi768CHX
+* Identifiant : [celui-d-ECAMPUS]
+* Mot de passe: epsi[celui-d-ECAMPUS]
 * Nom d'hôte: mysql.montpellier.epsi.fr
 * Port interne : 3306
 * Port externe : 5206
@@ -11,5 +11,5 @@
 
 * En ligne de commande
 ```
-$ mysql -hmysql.montpellier.epsi.fr -P5206 -utuan.nguyenngoc -pepsi768CHX
+$ mysql -hmysql.montpellier.epsi.fr -P5206 -u[USERNAME] -pepsi[PASSWORD]
 ```
