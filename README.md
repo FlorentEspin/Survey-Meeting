@@ -16,6 +16,5 @@
 * La base de donnée MYSQL (en local pour tout le monde,Avec le Glassfish quand on pourra)
 * Terminer le site internet
 * Tenir à jour le wordpress 
-* 
 
 ###### On est déter ! :)
