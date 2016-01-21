@@ -8,8 +8,7 @@
 * https://www.npmjs.com/
 * http://underscorejs.org/
 
-#### Voilà, c'est les sites principaux pour bien commencer ce sur framework. Faut juste bien comprendre la notion de templates 
-#### et les façons d'aborder le dynamisme des données :) 
+#### Voilà, c'est les sites principaux pour bien commencer ce sur framework. Faut juste bien comprendre la notion de templates et les façons d'aborder le dynamisme des données :) 
 
 ## Les TODOS : 
 * Web service GlassFish (en local pour tout le monde, et à l'epsi quand on pourra)
