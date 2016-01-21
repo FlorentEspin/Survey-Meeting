@@ -1,14 +1,61 @@
 <head>
-  <title>projet-android</title>
+    <title>projet-android</title>
+    <script src="js/lib/jquery.dropotron.min.js"></script>
+    <script src="js/lib/jquery.scrollgress.min.js"></script>
+    <script src="js/lib/jquery.scrolly.min.js"></script>
+    <script src="js/lib/jquery.slidertron.min.js"></script>
+    <script src="js/lib/skel.min.js"></script>
+    <script src="js/lib/skel-layers.min.js"></script>
+    <script src="js/lib/init.js"></script>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+<body class="landing">
+    {{> headerMenu}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="home">
+    {{> mainTemplate}} {{> footerMenu}}
+</template>
+
+<template name="login">
+    <h1>Connexion page</h1>
+</template>
+
+<template name="headerMenu">
+    <!-- Header -->
+    <div class="header">
+        <table>
+            <tr>
+                <td><h1><a href="/">Home <span>by survey-meeting</span></a></h1></td>
+                <td><a href="/survey"><span>survey</span></a></td>
+                <td><a href="/meeting"><span>meeting</span></a></td>
+                <td><a href="/settings"><span>settings</span></a></td>
+            </tr>
+        </table>
+
+    </div>
+
+</template>
+
+
+<template name="footerMenu">
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span class="copyright">
+					&copy; Copyright. All rights reserved. Design by <a href="http://www.html5webtemplates.co.uk">Responsive Web Templates</a>
+				</span>
+    </footer>
 </template>
