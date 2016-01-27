@@ -1,5 +1,5 @@
 <template name="meetingTemplate">
-    <h1>Meeting page</h1> {{> sectionMeeting}} {{> footerMenu}}
+    {{> sectionMeeting}} {{> footerMenu}}
 </template>
 
 <template name="sectionMeeting">
@@ -8,39 +8,28 @@
         <div class="container">
             <div class="row uniform">
                 <div class="4u 6u(2) 12u$(3)">
-                    <section class="feature fa-briefcase">
-                        <h3>Natoque phasellus</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+                    <section>
+                        <h3><i class="fa fa-calendar"></i> Plannifier un Meetings <i class="fa fa-calendar"></i></h3>
+                        <p>Créer votre propre Meetings, afin de convier vos amis / collègues à une réunion</p>
+                        <a href="#" class="button">Plannifier</a>
                     </section>
                 </div>
                 <div class="4u 6u$(2) 12u$(3)">
-                    <section class="feature fa-code">
-                        <h3>Ultricies dolore</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+                    <section>
+                        <h3><i class="fa fa-calendar"></i> Consulter vos Meetings <i class="fa fa-calendar"></i></h3>
+                        <p>Visualisez les Meetings auxquels vous avez été convié, et répondez-y.</p>
+                        <a href="#" class="button">Consulter</a>
+                        
                     </section>
                 </div>
                 <div class="4u$ 6u(2) 12u$(3)">
-                    <section class="feature fa-save">
-                        <h3>Magna lacinia</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-                    </section>
-                </div>
-                <div class="4u 6u$(2) 12u$(3)">
-                    <section class="feature fa-desktop">
-                        <h3>Praesent lacinia</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-                    </section>
-                </div>
-                <div class="4u 6u(2) 12u$(3)">
-                    <section class="feature fa-camera-retro">
-                        <h3>Morbi semper</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-                    </section>
-                </div>
-                <div class="4u$ 6u$(2) 12u$(3)">
-                    <section class="feature fa-cog">
-                        <h3>Arcu consequat</h3>
-                        <p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+                    <section>
+                        <h3><i class="fa fa-calendar"></i> Historique de vos Meetings <i class="fa fa-calendar"></i></h3>
+                        <ul>
+                            <li>10/01/2015 - Projet réseau salle 6</li>
+                            <li>10/01/2015 - Projet réseau salle 6</li>
+                        </ul>
+                        <a href="#" class="button">Historique</a>
                     </section>
                 </div>
             </div>

@@ -13,3 +13,6 @@ Router.route('/settings', function () {
 Router.route('/register', function () {
     this.render('resgisterTemplate');
 });
+Router.route('/learnmore', function () {
+    this.render('learnmoreTemplate');
+});

@@ -1,5 +1,5 @@
 <template name="surveyTemplate">
-    <h1>Survey page</h1> {{> sectionSurvey}} {{> footerMenu}}
+    {{> sectionSurvey}} {{> footerMenu}}
 </template>
 
 <template name="sectionSurvey">
@@ -7,27 +7,43 @@
     <section id="one" class="wrapper style1">
         <div class="container">
             <header class="major">
-                <h2>Lorem ipsum dolor</h2>
-                <p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat
-                    <br /> sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae
-                    <br /> blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
+                <h2>Visualisez vos sondages</h2>
             </header>
-            <div class="slider">
-                <span class="nav-previous"></span>
-                <div class="viewer">
-                    <div class="reel">
-                        <div class="slide">
-                            <img src="/slide01.jpg" alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="/slide02.jpg" alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="/slide03.jpg" alt="" />
-                        </div>
-                    </div>
+           <div class="row">
+                <div class="4u 6u(2) 12u$(3)">
+                    <article class="box post">
+                        <a href="#" class="image fit"><img src="/pic01.jpg" alt="" /></a>
+                        <h3>Créer sondages</h3>
+                        <p>Créer votre propre sondage, une question ? laissez vos amis y répondre pour vous
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">Créer</a></li>
+                        </ul>
+                    </article>
                 </div>
-                <span class="nav-next"></span>
+                <div class="4u 6u$(2) 12u$(3)">
+                    <article class="box post">
+                        <a href="#" class="image fit"><img src="/pic02.jpg" alt="" /></a>
+                        <h3>Vos sondages</h3>
+                        <p>Consultez vos sondages en cours, des gens attendent des réponses, dépéchez vous !!!
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">Répondre</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="4u$ 6u(2) 12u$(3)">
+                    <article class="box post">
+                        <a href="#" class="image fit"><img src="/pic03.jpg" alt="" /></a>
+                        <h3>Historique</h3>
+                        <p>Vous ne vous rappelez plus de la question, nous enregistrons ici, tous les sondages auxquels vous avez pû répondre.
+                            Peut-être vous trouverez votre bonheur ici !!?
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">Consulter</a></li>
+                        </ul>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
