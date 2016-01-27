@@ -1,24 +1,12 @@
 <head>
     <title>projet-android</title>
-    <script src="js/lib/jquery.dropotron.min.js"></script>
-    <script src="js/lib/jquery.scrollgress.min.js"></script>
-    <script src="js/lib/jquery.scrolly.min.js"></script>
-    <script src="js/lib/jquery.slidertron.min.js"></script>
-    <script src="js/lib/skel.min.js"></script>
-    <script src="js/lib/skel-layers.min.js"></script>
-    <script src="js/lib/init.js"></script>
 </head>
 
 <body class="landing">
-    {{> headerMenu}}
 </body>
 
 <template name="home">
     {{> mainTemplate}} {{> footerMenu}}
-</template>
-
-<template name="login">
-    <h1>Connexion page</h1>
 </template>
 
 <template name="headerMenu">
@@ -26,7 +14,7 @@
     <div class="header">
         <table>
             <tr>
-                <td><h1><a href="/"><i class="fa fa-home fa-6"></i> <span> Survey-Meeting</span></a></h1></td>
+                <td><h1><a href="/home"><i class="fa fa-home fa-6"></i> <span> Survey-Meeting</span></a></h1></td>
                 <td><a href="/survey"><span>Survey <i class="fa fa-users"></i></span></a></td>
                 <td><a href="/meeting"><span>Meeting <i class="fa fa-users"></i></span></a></td>
                 <td><a href="/settings"><span>Settings <i class="fa fa-cogs"></i></span></a></td>

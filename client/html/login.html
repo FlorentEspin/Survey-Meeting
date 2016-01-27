@@ -1,0 +1,23 @@
+<template name="loginTemplate">
+  {{> loginform}} {{> footerMenu}}
+</template>
+
+<template name="loginform">
+  <div id="login-form">
+	<section class="container">
+    <div class="login">
+      <br>
+      <h1>Login to Survey & Meeting</h1>
+      <form method="post" action="home">
+        <input type="text" name="login" value="" placeholder="Username or Email">
+        <input type="password" name="password" value="" placeholder="Password">
+        <br>
+        <p class="submit"><input type="submit" name="commit" value="Login"></p>
+        <p>Click juste pour te connecter, il y a pas de mdp encore</p>
+      </form>
+      Not a member yet ?
+      <a href="register">Click here to register</a>.
+    </div>
+  </section>
+  </div>
+</template>

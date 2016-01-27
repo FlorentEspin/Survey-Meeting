@@ -1,5 +1,5 @@
 Router.route('/', function () {
-    this.render('home');
+    this.render('loginTemplate');
 });
 Router.route('/meeting', function () {
     this.render('meetingTemplate');
@@ -15,4 +15,7 @@ Router.route('/register', function () {
 });
 Router.route('/learnmore', function () {
     this.render('learnmoreTemplate');
+});
+Router.route('/home', function () {
+    this.render('home');
 });
