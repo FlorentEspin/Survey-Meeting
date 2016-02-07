@@ -1,5 +1,5 @@
 <template name="settingsTemplate">
-   {{> headerMenu}} {{ > sectionSettings}} {{> footerMenu}}
+    {{> headerMenu}} {{ > sectionSettings}} {{> footerMenu}}
 </template>
 
 <template name="sectionSettings">
@@ -17,7 +17,7 @@
                         <p>Le pseudo & votre photo sont visibles par tous les utilisateurs, faites vous beaux !
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Modifier</a></li>
+                            <li><a href="/modifierProfile" class="button">Modifier</a></li>
                         </ul>
                     </article>
                 </div>
@@ -25,11 +25,11 @@
                     <article class="box post">
                         <a href="#" class="image fit"><img src="/pic02.jpg" alt="" /></a>
                         <h3>Email</h3>
-                        <p>Afin de pouvoir créer des sondages ainsi que des RDV avec vos amis, veillez à avoir une adresse mail valide.
-                            Sinon, modifiez la ici.
+                        <p>Afin de pouvoir créer des sondages ainsi que des RDV avec vos amis, veillez à avoir une adresse mail
+                            valide. Sinon, modifiez la ici.
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Modifier</a></li>
+                            <li><a href="/configurationEmail" class="button">Modifier</a></li>
                         </ul>
                     </article>
                 </div>
@@ -40,23 +40,26 @@
                         <p>Configurez votre nouveau mot de passe.
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Modifier</a></li>
+                            <li><a href="/configurationPassword" class="button">Modifier</a></li>
                         </ul>
                     </article>
                 </div>
-                <!--<div class="4u 6u$(2) 12u$(3)">
-                    <article class="box post">
-                        <a href="#" class="image fit"><img src="/pic04.jpg" alt="" /></a>
-                        <h3>Non placerat</h3>
-                        <p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem
-                            faucibus.
-                        </p>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Learn More</a></li>
-                        </ul>
-                    </article>
-                </div> -->
             </div>
         </div>
     </section>
+</template>
+
+<template name="modifierProfile">
+    {{> headerMenu}}
+    <h1>Modification de mon profile</h1> {{> footerMenu}}
+
+</template>
+
+<template name="configurationEmail">
+    {{> headerMenu}}
+    <h1>Configuration de mon email</h1> {{> footerMenu}}
+</template>
+<template name="configurationPassword">
+    {{> headerMenu}}
+    <h1>Configuration de mon mot de passe</h1>{{> footerMenu}}
 </template>

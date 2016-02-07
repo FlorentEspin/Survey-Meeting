@@ -11,14 +11,14 @@
                     <section>
                         <h3><i class="fa fa-calendar"></i> Plannifier un Meetings <i class="fa fa-calendar"></i></h3>
                         <p>Créer votre propre Meetings, afin de convier vos amis / collègues à une réunion</p>
-                        <a href="#" class="button">Plannifier</a>
+                        <a href="/plannifierRDV" class="button">Plannifier</a>
                     </section>
                 </div>
                 <div class="4u 6u$(2) 12u$(3)">
                     <section>
                         <h3><i class="fa fa-calendar"></i> Consulter vos Meetings <i class="fa fa-calendar"></i></h3>
                         <p>Visualisez les Meetings auxquels vous avez été convié, et répondez-y.</p>
-                        <a href="#" class="button">Consulter</a>
+                        <a href="/consulterRDV" class="button">Consulter</a>
                         
                     </section>
                 </div>
@@ -29,10 +29,28 @@
                             <li>10/01/2015 - Projet réseau salle 6</li>
                             <li>10/01/2015 - Projet réseau salle 6</li>
                         </ul>
-                        <a href="#" class="button">Historique</a>
+                        <a href="/historiqueRDV" class="button">Historique</a>
                     </section>
                 </div>
             </div>
         </div>
     </section>
+</template>
+
+<template name="plannifierRDV">
+     {{> headerMenu}}
+    <h1>Plannification d'un RDV avec d'autres personnes</h1>
+    {{> footerMenu}}
+</template>
+
+<template name="consulterRDV">
+     {{> headerMenu}}
+    <h1>Consultation de mes RDV en cours</h1>
+    {{> footerMenu}}
+</template>
+
+<template name="historiqueRDV">
+     {{> headerMenu}}
+    <h1>Historique des mes RDV passés</h1>
+    {{> footerMenu}}
 </template>

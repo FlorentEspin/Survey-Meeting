@@ -1,3 +1,6 @@
+/* global Meteor */
+/* global Template */
+
 if (Meteor.isClient) {
     Template.home.helpers({
         "connected": function () {

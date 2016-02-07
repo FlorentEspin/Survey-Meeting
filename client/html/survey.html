@@ -1,5 +1,5 @@
 <template name="surveyTemplate">
-     {{> headerMenu}} {{> sectionSurvey}} {{> footerMenu}}
+    {{> headerMenu}} {{> sectionSurvey}} {{> footerMenu}}
 </template>
 
 <template name="sectionSurvey">
@@ -9,7 +9,7 @@
             <header class="major">
                 <h2>Visualisez vos sondages</h2>
             </header>
-           <div class="row">
+            <div class="row">
                 <div class="4u 6u(2) 12u$(3)">
                     <article class="box post">
                         <a href="#" class="image fit"><img src="/pic01.jpg" alt="" /></a>
@@ -17,7 +17,7 @@
                         <p>Créer votre propre sondage, une question ? laissez vos amis y répondre pour vous
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Créer</a></li>
+                            <li><a href="/creationSondage" class="button">Créer</a></li>
                         </ul>
                     </article>
                 </div>
@@ -28,7 +28,7 @@
                         <p>Consultez vos sondages en cours, des gens attendent des réponses, dépéchez vous !!!
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Répondre</a></li>
+                            <li><a href="/vosSondages" class="button">Répondre</a></li>
                         </ul>
                     </article>
                 </div>
@@ -36,15 +36,31 @@
                     <article class="box post">
                         <a href="#" class="image fit"><img src="/pic03.jpg" alt="" /></a>
                         <h3>Historique</h3>
-                        <p>Vous ne vous rappelez plus de la question, nous enregistrons ici, tous les sondages auxquels vous avez pû répondre.
-                            Peut-être vous trouverez votre bonheur ici !!?
+                        <p>Vous ne vous rappelez plus de la question que vous avez posé ? ni des réponses ? Nous enregistrons
+                            ici, tous les sondages auxquels vous avez pû répondre...
                         </p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Consulter</a></li>
+                            <li><a href="/historiqueSondages" class="button">Consulter</a></li>
                         </ul>
                     </article>
                 </div>
             </div>
         </div>
     </section>
+</template>
+
+<template name="creationSondage">
+    {{> headerMenu}}
+    <h1>Création d'un sondage</h1> {{> footerMenu}}
+</template>
+
+<template name="vosSondages">
+    {{> headerMenu}}
+    <h1>Mes sondages</h1> {{> footerMenu}}
+
+</template>
+
+<template name="historiqueSondages">
+    {{> headerMenu}}
+    <h1>Historique d'un sondage</h1> {{> footerMenu}}
 </template>
